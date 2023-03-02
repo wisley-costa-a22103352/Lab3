@@ -1,0 +1,84 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    font-size: 3em;
+}
+
+.viajar{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(183, 230, 206);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.p{
+    padding: 20px;
+}
+
+
+ .emoji {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.aleatoria {
+    position: relative;
+}
+
+.aleatoria img {
+    width: 100%;
+    display: block;
+}
+
+.aleatoria p {
+    position : absolute;
+    top: 0;
+    left: 0;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    font-size: x-large;
+}
+
+.frase {
+    position: relative;
+}
+
+.capitais {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(241, 246, 242);
+    justify-content:flex-start;
+    align-items: baseline;
+    margin: 5px;
+    border-radius: 3px solid black;
+}
+
+.capitais img {
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.capitais div{
+    display:flex;
+    flex-direction: row;
+    margin-right: 10px;
+    
+    
+}
+.capitais div div{
+    display: inline;
+}
+
+.capitais div:last-child {
+   /* width: 100%;*/
+    padding: 10px 0px 10px 0px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+   
+}
