@@ -57,6 +57,7 @@
     align-items: baseline;
     margin: 5px;
     border-radius: 3px solid black;
+    box-shadow: 10px;
 }
 
 .capitais img {
