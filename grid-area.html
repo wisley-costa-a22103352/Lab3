@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Exemplo de combinação de elementos semânticos HTML</title>
+    <style>
+        /* Definição do grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            margin: 20px;
+        }
+
+        /* Estilos para cada elemento com cor de fundo */
+        .color1 {
+            background-color: gold;
+            padding: 20px;
+            margin: 30px;
+        }
+
+        .color2 {
+            background-color: gold;
+            padding: 20px;
+            margin: 30px;
+        }
+
+        /* Estilos para cada elemento com imagem de fundo */
+        .bg1 {
+            background-image: url(imagens/girl-2696947_1280.jpg);
+            background-size: cover;
+            padding: 20px;
+            margin: 30px;
+        }
+
+        .bg2 {
+            background-image: url(imagens/colors-2474692_640.jpg);
+            background-size: cover;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .grid p {
+            color: white;
+        }
+
+        .grid h2 {
+            color: white;
+        }
+
+        /* Estilos para os links na grid */
+        nav {
+
+            display: flex;
+            background-color: black;
+            align-items: flex-end;
+            justify-content: flex-end;
+            margin: 1px;
+            padding: 10px;
+
+
+        }
+
+        a {
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            background: black;
+            font-weight: bold;
+            border: 4px solid gold;
+            padding: 1px;
+        }
+
+        /* Estilos para os títulos */
+        h1 {
+            margin-top: 0;
+            color: gold;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            background: rgb(12, 12, 12);
+            margin: 1px;
+            padding: 10px;
+        }
+
+        .grid h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>VIVA COM CORES, VIVA COM ARTE</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pagina1.html">Página 1</a></li>
+            <li><a href="pagina2.html">Página 2</a></li>
+            <li><a href="pagina3.html">Página 3</a></li>
+            <li><a href="pagina4.html">Página 4</a></li>
+            <li><a href="pagina5.html">Página 5</a></li>
+            <li><a href="index.html">Página Principal</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="grid">
+            <div class="color1">
+                <h2>Paixão</h2>
+            </div>
+            <div class="bg1">
+                <h2>Arte das cores</h2>
+            </div>
+            <div class="color2">
+                <h2>Dança</h2>
+            </div>
+            <div class="bg2">
+                <h2>Arte das cores</h2>
+            </div>
+            <div class="color1">
+                <h2>Viva</h2>
+            </div>
+            <div class="bg1">
+                <h2>Arte das cores</h2>
+            </div>
+            <div class="color2">
+                <h2>Paz</h2>
+            </div>
+            <div class="bg2">
+                <h2>Arte das cores</h2>
+            </div>
+            <div class="color1">
+                <h2>Motivar</h2>
+            </div>
+            <div class="bg1">
+                <h2>Arte das cores</h2>
+            </div>
+            <div class="color2">
+                <h2>Alegria</h2>
+            </div>
+            <div class="bg2">
+                <h2>Arte das cores</h2>
+
+
+            </div>
+        </div>
+    </main>
+    <aside>
+        <p>Pinte a sua vida de novas cores. Respire novos ares. Conheça novas pessoas. Procure novas paixões. Aceite
+            novas opiniões. Questione novas declarações. Visite novos lugares. Crie novas situações. Acredite em novos
+            métodos… Enfim, viva o novo.</p>
+    </aside>
+    <footer>
+        <p>Wisley Costa || a22103352 || 2º Ano || Engenharia Informática</p>
+    </footer>
+</body>
+
+</html>
